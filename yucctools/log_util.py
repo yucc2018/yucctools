@@ -11,7 +11,7 @@ def logger(log_file=None):
     :return: logger实例
     """
     if not log_file:
-        log_file = 'test.log'
+        log_file = 'log_by_yucctools.log'
     # create logger with a name
     logger = logging.getLogger()
     if not logger.handlers:

@@ -1,6 +1,6 @@
 ## yucctools
 
-常用的工具分享。可以方便的调用本工具去记录日志
+常用的工具分享。可以方便的调用本工具去记录日志等。
 
 
 ### 安装
@@ -16,7 +16,7 @@ pip install yucctools
 
 #### 日志工具
 
-可以方便的去初始化记录日志，样例：
+可以方便的去初始化记录日志，并记录日志，样例：
 
 ```python
 # 导入包
@@ -28,3 +28,6 @@ logger = yt.logger(log_file='test.log')
 # 记录信息，只要这么调用就可以使用了
 logger.info('this is a test log!')
 ```
+
+
+
