@@ -15,10 +15,11 @@ if stale_dist.exists():
 
 
 setup(name='yucctools',
-        version='0.0.4',
+        version='0.0.5',
         description='useful tools, such as logger',
         long_description=open('README.md', 'r', encoding='utf-8').read(),
-        url='',
+        long_description_content_type='text/markdown',
+        url='https://github.com/yucc2018/yucctools',
         author='Chen-Chen Yu',
         author_email='6506666@gmail.com',
         license='MIT',
