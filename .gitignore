@@ -8,13 +8,4 @@ __pycache__
 *.pyc
 *.lprof
 .ipynb_checkpoints
-leintent/data/backup/*
-leintent/model/*
-leintent/cv_offline/*
 tmp/*
-helper/cv_offline/*
-helper/bert_pre_trained/*
-helper/bert_offline/*
-helper/backup/*
-helper/cache/*
-helper/transformers/*
