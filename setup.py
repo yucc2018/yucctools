@@ -15,7 +15,7 @@ if stale_dist.exists():
 
 
 setup(name='yucctools',
-        version='0.0.6',
+        version='0.0.7',
         description='useful tools, such as logger',
         long_description=open('README.md', 'r', encoding='utf-8').read(),
         long_description_content_type='text/markdown',

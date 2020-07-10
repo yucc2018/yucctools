@@ -23,7 +23,7 @@ pip install yucctools
 import yucctools as yt
 
 # 初始化logger实例
-logger = yt.logger(log_file='test.log')
+logger = yt.logger(filepath='test.log')
 
 # 记录信息，只要这么调用就可以使用了
 logger.info('this is a test log!')
