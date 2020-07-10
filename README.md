@@ -26,7 +26,16 @@ import yucctools as yt
 logger = yt.logger(filepath='test.log')
 
 # 记录信息，只要这么调用就可以使用了
-logger.info('this is a test log!')
+# 记录一条debug级别的日志
+logger.info('this is a debug levle log.')
+# 记录一条info级别的日志
+logger.info('this is a info level log.')
+# 记录一条warning级别的日志记录
+logger.warning('this is a warning level log.')
+# 记录一条error级别的日志记录
+logger.error('this is a error level log.')
+# 记录一条critical级别的日志记录
+logger.critical('this is a critical level log.')
 ```
 
 
