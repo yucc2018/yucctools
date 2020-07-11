@@ -5,12 +5,17 @@
 
 ### 安装
 
-直接使用pip安装即可
+方法一：直接使用pip安装
 
 ```python
 pip install yucctools
 ```
 
+方法二：国内pip有时较慢，可以指定使用清华源安装
+
+```python
+pip install yucctools -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
 
 ### 使用示例
 

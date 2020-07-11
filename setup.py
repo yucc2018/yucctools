@@ -15,8 +15,8 @@ if stale_dist.exists():
 
 
 setup(name='yucctools',
-        version='0.1.0',
-        description='useful tools, such as logger',
+        version='0.1.1',
+        description='一些常用的通用的工具, 比如日志记录工具',
         long_description=open('README.md', 'r', encoding='utf-8').read(),
         long_description_content_type='text/markdown',
         url='https://github.com/yucc2018/yucctools',
